@@ -9,8 +9,9 @@ CREATE TABLE Student (
 );
 
 ALTER TABLE Student
-  ADD ( Email VARCHAR (30),
-        PHONENumber INT(10)
+  ADD (
+    Email VARCHAR (30),
+    PHONENumber INT(10)
     );
 
 DESC Student;
