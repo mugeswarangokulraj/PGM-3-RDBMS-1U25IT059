@@ -8,6 +8,6 @@ CREATE TABLE Student (
     DepartmentID INT(5) 
 );
 ALTER TABLE Student
-  ADD Email VARCHAR(40),
+  ADD Email VARCHAR(40);
   ADD PHONEnumber INT(10);
 DESC Student;
