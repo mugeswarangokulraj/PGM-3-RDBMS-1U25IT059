@@ -7,7 +7,9 @@ CREATE TABLE Student (
     Gender VARCHAR(10) ,
     DepartmentID INT(5) 
 );
+
 ALTER TABLE Student
-  ADD Email VARCHAR(40);
-  ADD PHONEnumber INT(10);
+  ADD ( Email VARCHAR(30),
+  PHONENumber INT(10) );
+
 DESC Student;
