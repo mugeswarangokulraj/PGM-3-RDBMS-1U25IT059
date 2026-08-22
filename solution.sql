@@ -1,9 +1,9 @@
-CREATE DATABASE College1DB;
-USE College1DB;
-CREATE TABLE Studend (
+CREATE DATABASE CollegeDB;
+USE CollegeDB;
+CREATE TABLE Student (
     StudentID INT(5) PRIMARY KEY,
     StudentName VARCHAR (20),
-    DOB DATE ,
+    DOB Date ,
     Gender VARCHAR (10) ,
     DepartmentID INT (5) 
 );
